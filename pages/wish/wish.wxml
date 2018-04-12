@@ -1,0 +1,13 @@
+<view class="wish-container">
+    <view class="wish-inner-container">
+        <view class="wish-best-title">
+            {{userName}}
+        </view>
+        <view class="wish-best-subTitle">
+            祝您{{yourName}}在新的一年:
+        </view>
+        <view class="wish-best-des">
+            <span wx:for="{{blessList}}" class="bless-item">{{item}}</span>
+        </view>
+    </view>
+</view>

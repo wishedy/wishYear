@@ -1,0 +1,22 @@
+<view class="wish-container">
+    <view class="wish-inner-container">
+        <view class="wish-bless-title">
+            我的新年汪汪
+        </view>
+        <view class="wish-bless-subTitle">
+            新的一年{{nickName}}是一只:
+        </view>
+        <view class="wish-bless-des">
+            <span wx:for="{{desBox}}" class="bless-item">{{item}}</span>
+        </view>
+        <view class="wish-bless-name">
+            <span>一一的{{nameNum}}汪</span>
+        </view>
+        <view class="wish-inputBtn-bar" bindtap="createWish">
+            新年送祝福
+        </view>
+        <!--<view class="wish-bless-save">
+            长按图片保存
+        </view>-->
+    </view>
+</view>

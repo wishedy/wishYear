@@ -1,0 +1,13 @@
+<view class="wish-container">
+    <view class="wish-inner-container">
+        <view class="wish-inputName-bar">
+            <input type="text" placeholder="请输入您的姓名" bindinput="inputName"/>
+        </view>
+        <view class="wish-inputBtn-bar" bindtap="createWish">
+            我的新年汪汪
+        </view>
+        <view class="jumpApp">
+            <button class="openApp" open-type="launchApp" app-parameter="wechat" binderror="launchAppError">打开分享过的APP</button>
+        </view>
+    </view>
+</view>
